@@ -1,0 +1,34 @@
+# Dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+/coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (keep the example template)
+.env
+.env.*
+!.env.example
+
+# Package manager and tool caches
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.pnp.*
+.eslintcache
+.stylelintcache
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
